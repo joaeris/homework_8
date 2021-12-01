@@ -1,0 +1,69 @@
+body {
+  background-color: #FFF1E0;
+  font-family: Open Sans;
+}
+
+/** top nav bar with the logo (title) history, music, games **/
+.navbar {
+  display: inline-block;
+  width: 100%;
+}
+
+/** div the title of the website **/
+.title {
+  float: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+/** div for history, music, and games **/
+.navbarbuttons {
+  float: right;
+  justify-content: space-between;
+}
+
+/** nav bar buttons **/
+.history {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  background-color: #75BBFB;
+  border: none;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.music {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  background-color: #FBA459;
+  border: none;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.games {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  background-color: #C97BC3;
+  border: none;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
