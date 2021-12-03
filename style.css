@@ -29,6 +29,7 @@ body {
 /** normal state **/
 .history {
   color: black;
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -56,9 +57,14 @@ body {
   background-color: #ED344D;
 }
 
+a {
+  all: unset;
+}
+
 /** normal state **/
 .music {
   color: black;
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -89,6 +95,7 @@ body {
 /** normal state **/
 .games {
   color: black;
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
