@@ -28,7 +28,7 @@ body {
 
 /** normal state **/
 .history {
-  color: white;
+  color: black;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -58,7 +58,7 @@ body {
 
 /** normal state **/
 .music {
-  color: white;
+  color: black;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
@@ -88,7 +88,7 @@ body {
 
 /** normal state **/
 .games {
-  color: white;
+  color: black;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
