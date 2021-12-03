@@ -25,7 +25,7 @@ var quotations = [
     "People say I have a bad reputation. I think I’ve got the best reputation in the building.",
     "Living well eliminates the need for revenge.",
     "Do you know where to find marble conference tables? I'm looking to have a conference... not until I get the table though.",
-    "You may be talented, but you're not kanye west.",
+    "You may be talented, but you're not Kanye West.",
     "I’m not comfortable with comfort. I’m only comfortable when I’m in a place where I’m constantly learning and growing.",
     "I want people to feel like it’s okay to create. It’s okay to not be boxed in. I want people to feel like awesome is possible.",
     "I was never really good at anything except for the ability to learn.",
