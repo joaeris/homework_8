@@ -1,8 +1,3 @@
-#Turns out that this package does not work anymore due to the fact that Genius does not allow
-#lyrics to be automatically scraped. This is due to Genius not owning the lyrics
-#but it is the artists themselves that do. This file is not corrupt, it just does not work
-#with what I want to do. See kanyeR.R for the real code.
-
 #Sentiment package is sentimentr and the tutorial website is located in line 2
 #https://towardsdatascience.com/doing-your-first-sentiment-analysis-in-r-with-sentimentr-167855445132
 #All of the lyrics have been gathered from Genius.com
@@ -88,9 +83,4 @@ search_song(search_term = "skinhead", n_results = 10)
 search_song(search_term = "monster", n_results = 10)
 #MONSTER is 1149
 
-#Getting the lyrics of the songs.....
 
-#Turns out that this package does not work anymore due to the fact that Genius does not allow
-#lyrics to be automatically scraped. This is due to Genius not owning the lyrics
-#but it is the artists themselves that do. This file is not corrupt, it just does not work
-#with what I want to do. See kanyeR.R for the real code.
