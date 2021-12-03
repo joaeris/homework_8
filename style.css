@@ -25,6 +25,8 @@ body {
 }
 
 /** nav bar buttons **/
+
+/** normal state **/
 .history {
   color: white;
   cursor: pointer;
@@ -42,6 +44,19 @@ body {
   padding-left: 15px;
 }
 
+/** hover state **/
+.history:hover {
+  background-color: black;
+  color: white;
+}
+
+/** click state **/
+.history:active {
+  color: beige;
+  background-color: #ED344D;
+}
+
+/** normal state **/
 .music {
   color: white;
   cursor: pointer;
@@ -59,6 +74,19 @@ body {
   padding-left: 30px;
 }
 
+/** hover state **/
+.music:hover {
+  background-color: black;
+  color: white;
+}
+
+/** click state **/
+.music:active {
+  color: beige;
+  background-color: #ED344D;
+}
+
+/** normal state **/
 .games {
   color: white;
   cursor: pointer;
@@ -73,6 +101,18 @@ body {
   padding-right: 25px;
   padding-bottom: 5px;
   padding-left: 25px;
+}
+
+/** hover state **/
+.games:hover {
+  background-color: black;
+  color: white;
+}
+
+/** click state **/
+.games:active {
+  color: beige;
+  background-color: #ED344D;
 }
 
 /** quotation headers**/
