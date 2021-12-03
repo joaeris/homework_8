@@ -76,12 +76,12 @@ body {
 }
 
 /** quotation headers**/
-.headerquote {
-  margin-bottom: 0px;
-  padding: 0px;
+#headerquote {
+  margin-bottom: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
-.headerquote2 {
-  margin-bottom: 0px;
-  padding: 0px;
+#headerquote2 {
+  margin-bottom: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
