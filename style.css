@@ -3,16 +3,24 @@ body {
   font-family: Open Sans;
 }
 
+h1 {
+  font-size: 30px;
+  margin: 0px;
+}
+
 /** top nav bar with the logo (title) history, music, games **/
 .navbar {
   display: inline-block;
   width: 100%;
   height: 20%;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /** div the title of the website **/
 .title {
   float: left;
+  position: absolute;
   align-items: center;
   cursor: pointer;
   font-size: 30px;
@@ -22,9 +30,15 @@ body {
 .navbarbuttons {
   float: right;
   justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 /** nav bar buttons **/
+/** remove link underline **/
+a {
+  all: unset;
+}
 
 /** normal state **/
 .history {
@@ -57,9 +71,6 @@ body {
   background-color: #ED344D;
 }
 
-a {
-  all: unset;
-}
 
 /** normal state **/
 .music {
@@ -124,11 +135,117 @@ a {
 
 /** quotation headers**/
 #headerquote {
-  margin-bottom: 0px 0px 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding: 0px 0px 0px 0px;
 }
 
 #headerquote2 {
-  margin-bottom: 0px 0px 0px 0px;
+  margin-bottom: 0px;
   padding: 0px 0px 0px 0px;
+}
+
+/** div for instructions on quotation **/
+#para {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/** div for Kanye Quotation **/
+#KanyeQuoteHere {
+  text-align: center;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+  height: 80px;
+}
+
+/** div for NEXT button for Kanye Quotation **/
+/** Source for centering from W3Schools **/
+.nextButton {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/** style for NEXT button for Kanye Quotation **/
+.NextOne {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+/** Kanye hands img **/
+#kanyehands {
+  margin-top: 40px;
+}
+
+/** div for layered images on games page **/
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/** red kanye image on games page **/
+.kanyered {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  left: 15px;
+  top: 100px;
+}
+
+/** kanye in a mask image on games page **/
+.kanyemask {
+  position: absolute;
+  width: 1075px;
+  height: 600px;
+  left: 175px;
+  top: 50px;
+}
+
+/** container for image text **/
+.imagetext {
+  position: absolute;
+}
+
+/** header for games **/
+.gamesheader {
+  margin: 0px;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  line-height: 40px;
+  width: 250px;
+  height: 20px;
+  left: 1050px;
+  top: 350px;
+}
+
+/** quotation game **/
+.gamesquotation {
+  cursor: pointer;
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  line-height: 40px;
+  height: 20px;
+  width: 250px;
+  left: 1050px;
+  top: 400px;
 }
