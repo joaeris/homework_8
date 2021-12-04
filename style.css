@@ -300,3 +300,27 @@ a {
   font-size: 24px;
   font-weight: bold;
 }
+
+/** links are in purple **/
+#kanyefacts {
+  cursor: pointer;
+  color: purple;
+}
+
+/** this is the first part of the body on the history page **/
+.hbody1 {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 14px;
+}
+
+#sentimentid {
+  display: flex;
+  justify-content: center;
+}
+
+/** sentiment image **/
+.sentiment {
+  width: 60%;
+  height: 80%;
+}
