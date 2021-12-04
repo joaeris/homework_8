@@ -219,6 +219,7 @@ a {
 /** container for image text **/
 .imagetext {
   position: absolute;
+  color: black;
 }
 
 /** header for games **/
