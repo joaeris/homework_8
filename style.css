@@ -314,6 +314,7 @@ a {
   font-size: 14px;
 }
 
+/** flex to center **/
 #sentimentid {
   display: flex;
   justify-content: center;
@@ -323,4 +324,11 @@ a {
 .sentiment {
   width: 60%;
   height: 80%;
+}
+
+/** sentiment analysis header for img **/
+#sentimentheader {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
