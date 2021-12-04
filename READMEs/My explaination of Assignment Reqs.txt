@@ -1,0 +1,13 @@
+This is a little explanation of what happens on my prototype:
+
+Animation: If you click on the tab for Music, there will be a "Thank You" that loads underneath the paragraph and above the first video.
+
+Library: I scraped lyrics from to use the sentimentr library/package on R so I could get a sentiment analysis on Kanye's songs. Professor Ion said that this was okay and that it counted since it was machine learning. I also asked her if I could just make my own chart on Figma and she said yes.
+
+Responsive: I checked and it should be.
+
+Accesibility: Ran through WAVE, A-OK.
+
+R: I included the R files that I used for this project.
+
+Write-Up: It is in the READMEs file. 
