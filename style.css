@@ -249,3 +249,21 @@ a {
   left: 1050px;
   top: 400px;
 }
+
+/** the main LIFE OF KANYE image **/
+.lifeimage {
+  position: absolute;
+  margin-top: 20px;
+  left: 0%;
+  width: 100%;
+  height: 700px;
+  opacity: 0.9;
+}
+
+.crowd {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  left: 17%;
+  margin-top: 275px;
+}
