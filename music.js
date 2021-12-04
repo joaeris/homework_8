@@ -1,13 +1,12 @@
+/* Typewriter animation from W3schools */
 var i = 0;
-var txt = 'GAMES';
+var txt = 'Thank you.';
 var speed = 50;
-
 
 function typeWriter() {
     if (i < txt.length) {
-        document.getElementById("gamest").innerHTML += txt.charAt(i);
+        document.getElementById("thanks").innerHTML += txt.charAt(i);
         i++;
-        setTimeout(typewriter, speed);
+        setTimeout(typeWriter, speed);
     }
-
 }
